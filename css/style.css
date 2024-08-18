@@ -12,21 +12,21 @@ background: #012D63;
 }
 .nav-item{
 color: #C7C7C7;
-font-family: Roboto;
+font-family: "Roboto";
 font-size: 24px;
 font-weight: 300;
 line-height: 1.16;
 }
 .nav-item:hover{
 color: #FFF;
-font-family: Roboto;
+font-family: "Roboto";
 font-size: 24px;
 font-weight: 400;
 line-height: 1.16;
 }
 .header-ua{
 color: #DCDCDC;
-font-family: Roboto;
+font-family: "Roboto";
 font-size: 24px;
 font-style: normal;
 font-weight: 300;
@@ -34,14 +34,14 @@ line-height: 1.16;
 }
 .header-ua:hover{
 color: #FFF;
-font-family: Roboto;
+font-family: "Roboto";
 font-size: 24px;
 font-weight: 400;
 line-height: 1.16;
 }
 .header-eng{
 color: #DCDCDC;
-font-family: Roboto;
+font-family: "Roboto";
 font-size: 24px;
 font-style: normal;
 font-weight: 300;
@@ -49,11 +49,186 @@ line-height: 1.16;
 }
 .header-eng:hover{
 color: #FFF;
-font-family: Roboto;
+font-family: "Roboto";
 font-size: 24px;
 font-weight: 400;
 line-height: 1.16; 
 }
 .ColoRawe{
-    background-image: url(/img/backgroundnike.jpg);
+background-image: url(/img/backgroundnike.jpg);
+}
+.swoosh-title{
+color: #FFF;
+font-family: "PT Serif";
+font-size: 48px;
+font-weight: 400;
+line-height: 1,33;
+}
+.ColoRawe-header{
+color: #FFF;
+font-family: "Playfair Display";
+font-size: 144px;
+font-weight: 400;
+line-height: 1,33;
+margin: 0;
+}
+.ColoRawe-title{
+color: #FFF;
+font-family: "Playfair Display";
+font-size: 72px;
+font-weight: 400;
+line-height: 1,33;
+}
+.ColoRawe-description{
+color: #FFF;
+font-family: "Roboto";
+font-size: 18px;
+font-weight: 400;
+line-height: 1,16;
+}
+.ColoRawe-button{
+padding: 20px 61px;
+border-radius: 10px;
+background: #8E32C6;
+color: #FFF;
+font-family: "Roboto";
+font-size: 24px;
+font-weight: 400;
+line-height: 1,16;
+}
+.advantages{
+background: url(/img/background-advantages.jpg);
+}
+.advantages-title{
+color: #FFF;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 36px;
+font-weight: 400;
+line-height: 1,33;
+}
+.Reviews{
+    background: url(/img/background-Reviews.jpg);
+}
+.Reviews-header{
+color: #FFF;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 48px;
+font-weight: 400;
+line-height: 1,33;
+}
+.section1{
+background: url(/img/background-Reviews-one.jpg);
+border-radius: 15px;
+background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+padding: 49px 14px 131px 13px;
+}
+.Reviews-john{
+color: #FFF;
+font-family: "Roboto";
+font-size: 24px;
+font-weight: 400;
+line-height: 1,16;
+}
+.Reviews-john-data{
+color: #D8D8D8;
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 1,14;
+}
+.Reviews-john-name{
+color: #FFF;
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 1,14;
+}
+.Reviews-john-year{
+color: #D8D8D8;
+font-family: "Roboto";
+font-size: 12px;
+font-weight: 400;
+line-height: 1,16;
+}
+.section2{
+background: url(/img/background-Reviews-two.jpg);
+border-radius: 15px;
+background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+padding: 49px 14px 131px 13px;
+}
+.Reviews-elizabeth{
+color: #FFF;
+font-family: "Roboto";
+font-size: 24px;
+font-weight: 400;
+line-height: 1,16;
+}
+.Reviews-elizabeth-data{
+color: #D8D8D8;
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 1,14;
+}
+.Reviews-elizabeth-name{
+color: #FFF;
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 1,14;
+}
+.Reviews-elizabeth-year{
+color: #D8D8D8;
+font-family: "Roboto";
+font-size: 12px;
+font-weight: 400;
+line-height: 1,16;
+}
+.section3{
+background: url(/img/background-Reviews-three.jpg);
+border-radius: 15px;
+background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
+padding: 49px 14px 131px 13px;
+}
+.Reviews-tom{
+color: #FFF;
+font-family: "Roboto";
+font-size: 24px;
+font-weight: 400;
+line-height: 1,16;
+}
+.Reviews-tom-data{
+color: #D8D8D8;
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 1,14;
+}
+.Reviews-tom-name{
+color: #FFF;
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 1,14;
+}
+.Reviews-tom-year{
+color: #D8D8D8;
+font-family: "Roboto";
+font-size: 12px;
+font-weight: 400;
+line-height: 1,16;
+}
+.Reviews-img1{
+border-radius: 31px;
+}
+.Reviews-img2{
+border-radius: 31px;
+}
+.Reviews-img3{
+border-radius: 31px;
 }
