@@ -8,8 +8,29 @@ padding-right: 15px;
 }
 
 .header{
-background: #012D63;
+background: #012D63; 
+display: flex;
+
 }
+.ColoRawe-swoosh{
+padding-top: 94px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    gap: 29px;
+    margin-left: 145px;
+}
+.header-list{
+    display: flex;
+    gap: 10px;
+    margin-left: 73px;
+}
+
 .nav-item{
 color: #C7C7C7;
 font-family: "Roboto";
@@ -56,6 +77,10 @@ line-height: 1.16;
 }
 .ColoRawe{
 background-image: url(/img/backgroundnike.jpg);
+background-size: cover;
+background-position: center;
+height: 81vh;
+
 }
 .swoosh-title{
 color: #FFF;
@@ -95,7 +120,10 @@ font-family: "Roboto";
 font-size: 24px;
 font-weight: 400;
 line-height: 1,16;
+margin-top: 41px;
+margin-bottom: 183px;
 }
+
 .advantages{
 background: url(/img/background-advantages.jpg);
 }
@@ -231,4 +259,99 @@ border-radius: 31px;
 }
 .Reviews-img3{
 border-radius: 31px;
+}
+.Order{
+background: url(/img/background-order.jpg);
+}
+.Order-confirm{
+color: #959595;
+font-family: "Roboto";
+font-size: 28px;
+font-weight: 400;
+line-height: 1,17;
+}
+.button-confirm{
+color: #8D8D8D;
+font-family: "Roboto";
+font-size: 28px;
+font-weight: 400;
+line-height: 1,17;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 77px;
+padding-right: 77px;
+
+}
+.Order-country{
+color: #959595;
+font-family: "Roboto";
+font-size: 24px;
+font-weight: 400;
+line-height: 1,16;    
+}
+.Order-city{
+color: #959595;
+font-family: "Roboto";
+font-size: 24px;
+font-weight: 400;
+line-height: 1,16;
+}
+.Order-adress{
+color: #959595;
+font-family: "Roboto";
+font-size: 24px;
+font-weight: 400;
+line-height: 1,16;
+}
+.button-nike{
+color: #FFF;
+font-family: "Roboto";
+font-size: 24px;
+font-weight: 400;
+line-height: 1,16;
+border-radius: 16px;
+background: #8E32C6;
+padding: 20px 49px;
+}
+input{
+border-radius: 50px;
+background: #FFF;
+padding: 13px 25px;
+}
+.footer-question{
+color: #FFF;
+font-family: "Roboto";
+font-size: 24px;
+font-weight: 400;
+line-height: 1,16;
+}
+.footer-mail{
+color: #FFF;
+font-family: "Roboto";
+font-size: 24px;
+font-weight: 400;
+line-height: 1,16;
+text-decoration-line: underline;
+}
+.footer{
+background: #021635;
+}
+.footer-title{
+color: #FFF;
+font-family: "Roboto";
+font-size: 18px;
+font-weight: 400;
+line-height: 1,16;
+}
+.footer-img-title{
+color: #FFF;
+font-family: "PT Serif";
+font-size: 24px;
+font-weight: 400;
+line-height: 1,33;
+}
+.footer-hr{
+width: 1110px;
+height: 1px;
+background: #9B9B9B;;
 }
