@@ -12,7 +12,7 @@ background: #012D63;
 display: flex;
 
 }
-.ColoRawe-swoosh{
+.colorawe-swoosh{
 padding-top: 94px;
 }
 
@@ -27,7 +27,6 @@ padding-top: 94px;
 }
 .header-list{
     display: flex;
-    gap: 10px;
     margin-left: 73px;
 }
 
@@ -75,7 +74,7 @@ font-size: 24px;
 font-weight: 400;
 line-height: 1.16; 
 }
-.ColoRawe{
+.colorawe{
 background-image: url(/img/backgroundnike.jpg);
 background-size: cover;
 background-position: center;
@@ -89,7 +88,7 @@ font-size: 48px;
 font-weight: 400;
 line-height: 1,33;
 }
-.ColoRawe-header{
+.colorawe-header{
 color: #FFF;
 font-family: "Playfair Display";
 font-size: 144px;
@@ -97,21 +96,22 @@ font-weight: 400;
 line-height: 1,33;
 margin: 0;
 }
-.ColoRawe-title{
+.colorawe-title{
 color: #FFF;
 font-family: "Playfair Display";
 font-size: 72px;
 font-weight: 400;
 line-height: 1,33;
 }
-.ColoRawe-description{
+.colorawe-description{
 color: #FFF;
 font-family: "Roboto";
 font-size: 18px;
 font-weight: 400;
 line-height: 1,16;
+width: 508px;
 }
-.ColoRawe-button{
+.colorawe-button{
 padding: 20px 61px;
 border-radius: 10px;
 background: #8E32C6;
@@ -126,6 +126,11 @@ margin-bottom: 183px;
 
 .advantages{
 background: url(/img/background-advantages.jpg);
+padding-top: 105px;
+padding-bottom: 105px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .advantages-title{
 color: #FFF;
@@ -134,9 +139,39 @@ font-family: "Playfair Display";
 font-size: 36px;
 font-weight: 400;
 line-height: 1,33;
+width: 161px;
+}
+.advantages-list{
+display: flex;
+justify-content: center;
+}
+.advantages-item{
+padding-left: 50px;
+padding-right: 50px;
+border-right: 1px solid #FFF;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.advantages-item:nth-child(2){
+padding-left: 95px;
+padding-right: 95px;
+display: flex;
+flex-direction: column-reverse;
+align-items: center;
+}
+.advantages-item:nth-child(3){
+border-right: none;
+}
+.advantages-box{
+padding-top: 25px;
+padding-bottom: 25px;
+border: 5px solid #8E32C6;
 }
 .Reviews{
-    background: url(/img/background-Reviews.jpg);
+background: url(/img/background-Reviews.jpg);
+padding-top: 24px;
+padding-bottom: 114px;
 }
 .Reviews-header{
 color: #FFF;
@@ -262,6 +297,8 @@ border-radius: 31px;
 }
 .Order{
 background: url(/img/background-order.jpg);
+padding-top: 21px;
+padding-bottom: 37px;
 }
 .Order-confirm{
 color: #959595;
@@ -335,6 +372,8 @@ text-decoration-line: underline;
 }
 .footer{
 background: #021635;
+padding-top: 45px;
+padding-bottom: 50px;
 }
 .footer-title{
 color: #FFF;
