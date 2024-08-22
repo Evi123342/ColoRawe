@@ -76,10 +76,9 @@ line-height: 1.16;
 }
 .colorawe{
 background-image: url(/img/backgroundnike.jpg);
-background-size: cover;
 background-position: center;
-height: 81vh;
-
+background-repeat: no-repeat;
+background-size: cover;
 }
 .swoosh-title{
 color: #FFF;
@@ -168,12 +167,15 @@ padding-top: 25px;
 padding-bottom: 25px;
 border: 5px solid #8E32C6;
 }
-.Reviews{
+.reviews{
 background: url(/img/background-Reviews.jpg);
 padding-top: 24px;
 padding-bottom: 114px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
-.Reviews-header{
+.reviews-header{
 color: #FFF;
 text-align: center;
 font-family: "Playfair Display";
@@ -188,28 +190,28 @@ background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%
 box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
 padding: 49px 14px 131px 13px;
 }
-.Reviews-john{
+.reviews-john{
 color: #FFF;
 font-family: "Roboto";
 font-size: 24px;
 font-weight: 400;
 line-height: 1,16;
 }
-.Reviews-john-data{
+.reviews-john-data{
 color: #D8D8D8;
 font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
 line-height: 1,14;
 }
-.Reviews-john-name{
+.reviews-john-name{
 color: #FFF;
 font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
 line-height: 1,14;
 }
-.Reviews-john-year{
+.reviews-john-year{
 color: #D8D8D8;
 font-family: "Roboto";
 font-size: 12px;
@@ -223,28 +225,28 @@ background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, 
 box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
 padding: 49px 14px 131px 13px;
 }
-.Reviews-elizabeth{
+.reviews-elizabeth{
 color: #FFF;
 font-family: "Roboto";
 font-size: 24px;
 font-weight: 400;
 line-height: 1,16;
 }
-.Reviews-elizabeth-data{
+.reviews-elizabeth-data{
 color: #D8D8D8;
 font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
 line-height: 1,14;
 }
-.Reviews-elizabeth-name{
+.reviews-elizabeth-name{
 color: #FFF;
 font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
 line-height: 1,14;
 }
-.Reviews-elizabeth-year{
+.reviews-elizabeth-year{
 color: #D8D8D8;
 font-family: "Roboto";
 font-size: 12px;
@@ -258,49 +260,52 @@ background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, 
 box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
 padding: 49px 14px 131px 13px;
 }
-.Reviews-tom{
+.reviews-tom{
 color: #FFF;
 font-family: "Roboto";
 font-size: 24px;
 font-weight: 400;
 line-height: 1,16;
 }
-.Reviews-tom-data{
+.reviews-tom-data{
 color: #D8D8D8;
 font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
 line-height: 1,14;
 }
-.Reviews-tom-name{
+.reviews-tom-name{
 color: #FFF;
 font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
 line-height: 1,14;
 }
-.Reviews-tom-year{
+.reviews-tom-year{
 color: #D8D8D8;
 font-family: "Roboto";
 font-size: 12px;
 font-weight: 400;
 line-height: 1,16;
 }
-.Reviews-img1{
+.reviews-img1{
 border-radius: 31px;
 }
-.Reviews-img2{
+.reviews-img2{
 border-radius: 31px;
 }
-.Reviews-img3{
+.reviews-img3{
 border-radius: 31px;
 }
-.Order{
+.order{
 background: url(/img/background-order.jpg);
 padding-top: 21px;
 padding-bottom: 37px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
-.Order-confirm{
+.order-confirm{
 color: #959595;
 font-family: "Roboto";
 font-size: 28px;
@@ -319,21 +324,21 @@ padding-left: 77px;
 padding-right: 77px;
 
 }
-.Order-country{
+.order-country{
 color: #959595;
 font-family: "Roboto";
 font-size: 24px;
 font-weight: 400;
 line-height: 1,16;    
 }
-.Order-city{
+.order-city{
 color: #959595;
 font-family: "Roboto";
 font-size: 24px;
 font-weight: 400;
 line-height: 1,16;
 }
-.Order-adress{
+.order-adress{
 color: #959595;
 font-family: "Roboto";
 font-size: 24px;
