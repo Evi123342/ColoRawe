@@ -109,7 +109,7 @@ margin-bottom: 183px;
 }
 
 .advantages{
-background: url(/img/background-advantages.jpg);
+background: url(../img/background-advantages.jpg);
 padding-top: 105px;
 padding-bottom: 105px;
 background-position: center;
@@ -153,7 +153,7 @@ padding-bottom: 25px;
 border: 5px solid #8E32C6;
 }
 .reviews{
-background: url(/img/background-Reviews.jpg);
+background: url(../img/background-Reviews.jpg);
 padding-top: 24px;
 padding-bottom: 114px;
 background-position: center;
@@ -174,7 +174,7 @@ display: flex;
 justify-content: center;
 }
 .reviews-item{
-background: url(/img/background-Reviews-one.jpg);
+background: url(../img/background-Reviews-one.jpg);
 border-radius: 15px;
 background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
 box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
@@ -212,7 +212,7 @@ font-weight: 400;
 line-height: 1,16;
 }
 .reviews-item:nth-child(2){
-background: url(/img/background-Reviews-two.jpg);
+background: url(../img/background-Reviews-two.jpg);
 border-radius: 15px;
 background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
 box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
@@ -251,7 +251,7 @@ font-weight: 400;
 line-height: 1,16;
 }
 .reviews-item:nth-child(3){
-background: url(/img/background-Reviews-three.jpg);
+background: url(../img/background-Reviews-three.jpg);
 border-radius: 15px;
 background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
 box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
@@ -297,7 +297,7 @@ border-radius: 31px;
 border-radius: 31px;
 }
 .order{
-background: url(/img/background-order.jpg);
+background: url(../img/background-order.jpg);
 padding-top: 21px;
 padding-bottom: 37px;
 background-position: center;
